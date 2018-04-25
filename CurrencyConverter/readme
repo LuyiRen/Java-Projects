@@ -1,3 +1,14 @@
 This is a simple currencyconverter using a txt file given to me in class.
 
 
+1. Create a Dynamic Web Project in Eclipse. Download rates.txt and save it under the /WEB-INF folder of your project. This file contains the conversion rates from one US dollar to several other currencies. For example, 1 US dollar equals to 0.942 Euro (EUR) or 0.805 British Pound (GBP).
+
+2. CurrencyConverter.java is a servlet that helps people calculate currency conversions based on the rates in the rates.txt file. Add this servlet to your project, run it and see how it works.
+
+3. (60pt) Modify the Currency Converter application so it uses the MVC architecture. In particular,
+
+Requests should always be sent to controllers, not directly to views.
+Servlets do not generate HTML content.
+No Java code in JSP, i.e. no JSP expression (<%= %>), JSP scriptlet (<% %>), or JSP declaration (<%! %>).
+4. (+10pt) For extra credit, use <fmt:formatNumber> to format the conversion result so it always shows three digits after the decimal point.
+
