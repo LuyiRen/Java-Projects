@@ -1,0 +1,31 @@
+
+In Lab 3 you created a table and a form that help managing the information about ECST faculty. In this lab you are going to build the actual web application. Your implementation must follow the MVC architecture discussed in class. In particular:
+
+Requests should always be sent to controllers, not directly to views.
+Servlets do not generate HTML content.
+No Java code in JSP, i.e. no JSP expression (<%= %>), JSP scriptlet (<% %>), or JSP declaration (<%! %>).
+The main page of the application displays ECST faculty information. For example:
+
+ECST Faculty
+Add Department | Add Faculty
+
+Department	Faculty
+Computer Science	Pamula (Chair)
+Sun
+Electrical and Computer Engineering	Agarwal
+
+Clicking on Add Department should take the user to a page where a new department can be added, e.g.
+
+ECST Faculty > Add Department
+Department: 
+ 
+
+After a department is added, the user should be redirected back to the main page. Clicking on ECST Faculty should also take the user back to the main page.
+
+Similarly, clicking Add Faculty should allow a user to add a new faculty as shown below:
+
+ECST Faculty > Add Faculty
+Department	
+Name	
+Chairperson:	
+After a faculty is added, the user should be redirected back to the main page. For simplicity you may assume that user input is always correct, e.g. a user will not mistakenly add a department that already exists or add a chairperson to a department that already has one.
