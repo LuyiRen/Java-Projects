@@ -1,3 +1,0 @@
-This short project shows an SQL database that does a small document mockup. You can create files or re-name them.
-
-It takes you through the directory and displays all the subfiles in them.
